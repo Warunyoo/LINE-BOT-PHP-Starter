@@ -1,4 +1,7 @@
   <?php
+  $message = 'สวัสดี';
+  $token = 'XPGm9h6RxNpW9UzyxuiJmGvG5JIyGDXzd9UymxV0Cwo';
+
   $ch = curl_init();
   curl_setopt( $ch, CURLOPT_URL, "https://notify-api.line.me/api/notify");
   curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0);
@@ -12,9 +15,3 @@
   $result = curl_exec( $ch );
   curl_close( $ch );
 
-  return $result;
-
-$message = 'สวัสดี';
-$token = 'XPGm9h6RxNpW9UzyxuiJmGvG5JIyGDXzd9UymxV0Cwo';
-
-echo send_line_notify($message, $token);
