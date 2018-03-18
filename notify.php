@@ -1,6 +1,6 @@
   <?php
 
-send_line_notify($_POST['send_line_notify']);
+send_line_notify($_GET['m']);
 function send_line_notify($message)
 {
   $token = 'AMcWidb5pq514aJZrLWwGRTf59qGPkyZII6HXHFdtvO';
