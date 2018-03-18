@@ -1,5 +1,7 @@
   <?php
-  $message = 'สวัสดีควย';
+
+function send_line_notify($message)
+{
   $token = 'AMcWidb5pq514aJZrLWwGRTf59qGPkyZII6HXHFdtvO';
 
   $ch = curl_init();
@@ -14,4 +16,4 @@
   curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
   $result = curl_exec( $ch );
   curl_close( $ch );
-
+}
