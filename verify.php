@@ -1,7 +1,6 @@
 <?php
-$access_token = "sPT+QnFHq3lfgGW/83UTBrOkkiuuGLN/iDyOThomaLdA4dR0yt7FQYuQ8e0GLM5RbkiXSqcp4LcC+0jUCnWL6Y3Vsf/UB7SRd18t1
-/3N1p9nWxzMeLJp8GtRTRq7IKjGwE32Y18f6U6EXpt4w3bPDQdB04t89/1O/w1cDnyilFU=";
-$url = 'https://api.line.me/v1/oauth/verify';
+$access_token = 'XPGm9h6RxNpW9UzyxuiJmGvG5JIyGDXzd9UymxV0Cwo';
+$url = 'https://notify-api.line.me/api/notify';
 $headers = array('Authorization: Bearer ' . $access_token);
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
