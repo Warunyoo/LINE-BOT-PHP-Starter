@@ -1,6 +1,6 @@
   <?php
   $message = 'สวัสดีควย';
-  $token = 'XPGm9h6RxNpW9UzyxuiJmGvG5JIyGDXzd9UymxV0Cwo';
+  $token = 'AMcWidb5pq514aJZrLWwGRTf59qGPkyZII6HXHFdtvO';
 
   $ch = curl_init();
   curl_setopt( $ch, CURLOPT_URL, "https://notify-api.line.me/api/notify");
