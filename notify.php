@@ -1,7 +1,8 @@
   <?php
 
 //send_line_notify($_GET['m']);
-send_line_notify("Hello");
+$srt = "hello";
+send_line_notify($srt);
 function send_line_notify($message)
 {
   $token = 'VI4mZrHXXyI1dOf4GITMiBEjOpyitGrQoJrLFGoUTYl';
