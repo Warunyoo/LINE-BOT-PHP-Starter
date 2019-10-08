@@ -3,8 +3,8 @@
 send_line_notify($_GET['m']);
 function send_line_notify($message)
 {
-  $token = 'AMcWidb5pq514aJZrLWwGRTf59qGPkyZII6HXHFdtvO';
-
+  $token = 'VI4mZrHXXyI1dOf4GITMiBEjOpyitGrQoJrLFGoUTYl';
+//AMcWidb5pq514aJZrLWwGRTf59qGPkyZII6HXHFdtvO
   $ch = curl_init();
   curl_setopt( $ch, CURLOPT_URL, "https://notify-api.line.me/api/notify");
   curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0);
